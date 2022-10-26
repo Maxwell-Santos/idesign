@@ -1,6 +1,6 @@
 import Image from "next/image"
 
-import inside from './importsImage'
+import {inside} from './importsImage'
 
 export function AboutUs() {
   const url = process.env.PUBLIC_URL
