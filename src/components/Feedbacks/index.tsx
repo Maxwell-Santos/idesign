@@ -51,7 +51,7 @@ export function Feedbacks() {
                     <p
                     className="text-xl md:text-2xl mb-7 text-nav opacity-70"
                     >
-                      "{feedback.feedback}"
+                      {feedback.feedback}
                     </p>
 
                     <span
