@@ -16,10 +16,13 @@ export function Feedbacks() {
       <Circle />
 
       <div className="text-center min-w-[50%] max-w-[40rem] p-6 mb-12">
-        <h2 className="text-6xl mt-[8rem] sm:mt-0 mb-7">What our happy client say</h2>
+        <h2 className="text-6xl mt-[8rem] sm:mt-0 mb-7">
+          What our happy client say
+        </h2>
         <span
           className="font-medium"
-        >File storage made easy - including powerfull features you won"t find anywhere else. Wheter you-re.</span>
+        >
+          File storage made easy - including powerfull features you won"t find anywhere else. Wheter you-re.</span>
       </div>
 
       <div
