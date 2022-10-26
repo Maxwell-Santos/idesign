@@ -1,0 +1,58 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer base{
+  html{
+    @apply text-sm sm:text-base mb-20
+  }
+  h1, h2{
+    @apply font-SourceSerif text-3xl md:text-5xl font-semibold text-secondary
+  }
+  p,a, span{
+    @apply font-Montserrat text-nav
+  }
+  section, header{
+    @apply w-full mx-auto max-w-7xl px-10 sm:px-7 h-full
+  }
+  img{
+    @apply w-full h-full
+  }
+}
+
+@layer components{
+  .deal {
+    @apply max-w-[300px] m-2 xs:m-0
+  }
+  .deal span{
+    @apply inline-block font-semibold mb-4
+  }
+
+  .about {
+    @apply max-w-[300px]
+  }
+  .about h3{
+    @apply font-Montserrat text-xl font-semibold text-secondary capitalize mb-3
+    first:text-5xl first:mb-6
+  }
+  
+  .frame{
+    @apply w-full flex flex-col gap-4 first:mt-14
+  }
+  
+  .frame img{
+    @apply object-center object-cover w-full h-full
+  }
+
+  .frame .a{
+    @apply w-full h-[200px]
+  }
+
+  .frame .b{
+    @apply w-full flex-1 max-h-[300px]
+  }
+
+  .category{
+    @apply capitalize text-nav font-medium opacity-75 hover:opacity-100 transition-all
+  }
+}
