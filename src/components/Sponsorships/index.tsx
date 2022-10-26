@@ -1,5 +1,5 @@
 import Image from 'next/image'
-import companies from './companies'
+import {companies} from './companies'
 
 export function Sponsorships() {
 
