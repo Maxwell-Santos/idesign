@@ -11,12 +11,12 @@ export function Feedbacks() {
   return (
     <section
       className="relative overflow-hidden flex flex-col items-center 
-   bg-feedbacksBg rounded-2xl my-20  xs:p-20 p-10"
+   bg-feedbacksBg rounded-2xl mt-20 xs:p-20 p-10"
     >
       <Circle />
 
-      <div className="text-center min-w-[50%] max-w-[40rem] p-6 mb-12">
-        <h2 className="text-6xl mt-[8rem] sm:mt-0 mb-7">
+      <div className="text-center min-w-[50%] max-w-[40rem] mb-12">
+        <h2 className="text-6xl sm:mt-[8rem] mb-7">
           What our happy client say
         </h2>
         <span
@@ -26,13 +26,14 @@ export function Feedbacks() {
       </div>
 
       <div
-        className="flex items-center w-full md:w-3/4"
+        className="flex items-center w-full lg:w-3/4 gap-8"
       >
         <div className="flex-1 hidden md:block">
           <Image
             src={thinking}
             alt="pessoa pensando"
             className="object-cover aspect-[3/4] max-w-[20rem] hidden md:block"
+            placeholder="blur"
           />
         </div>
 

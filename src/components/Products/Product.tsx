@@ -43,7 +43,8 @@ export function Product({name, preco, img}:ProductsProps) {
       <Image
       src={img} 
       alt={`image do produto: ${name}`} 
-      className="object-cover"
+      className="object-cover rounded-sm"
+      placeholder='blur'
       />
       
     </div>

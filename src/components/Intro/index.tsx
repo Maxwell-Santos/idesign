@@ -37,6 +37,7 @@ export function Intro() {
       src={Room}
       alt="imagem do sei la oq"
       className='w-full'
+      placeholder='blur'
       />
     </div>
    </section>

@@ -21,8 +21,8 @@
   transform: scale(.6);
 }
 .swiper{
-  min-height: 300px;
   height: 100%;
+  min-height: 300px;
   width: 100%;
 }
 /* 

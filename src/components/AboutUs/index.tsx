@@ -69,12 +69,15 @@ export function AboutUs() {
               <Image
                 src={inside.img1}
                 alt=""
+                placeholder="blur"
               />
             </div>
             <div className='b'>
               <Image
                 src={inside.img2}
                 alt=""
+                placeholder="blur"
+
               />
             </div>
 
@@ -86,12 +89,16 @@ export function AboutUs() {
               <Image
                 src={inside.img3}
                 alt=""
+                placeholder="blur"
+
               />
             </div>
             <div className='a'>
               <Image
                 src={inside.img4}
                 alt=""
+                placeholder="blur"
+
               />
             </div>
 

@@ -4,7 +4,7 @@
 
 @layer base{
   html{
-    @apply text-sm sm:text-base mb-20
+    @apply text-sm sm:text-base mb-10
   }
   h1, h2{
     @apply font-SourceSerif text-3xl md:text-5xl font-semibold text-secondary
@@ -13,7 +13,7 @@
     @apply font-Montserrat text-nav
   }
   section, header{
-    @apply w-full mx-auto max-w-7xl px-10 sm:px-7 h-full
+    @apply w-full mx-auto max-w-7xl px-10  h-full
   }
   img{
     @apply w-full h-full
@@ -54,5 +54,8 @@
 
   .category{
     @apply capitalize text-nav font-medium opacity-75 hover:opacity-100 transition-all
+  }
+  .link{
+    @apply hover:cursor-pointer border-b-2 border-gray-100/0 hover:border-gray-500 transition-all
   }
 }
