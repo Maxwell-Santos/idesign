@@ -9,6 +9,8 @@ export default function Document() {
         <link
           href="https://fonts.googleapis.com/css2?family=Montserrat:wght@300;400;500&family=Source+Serif+Pro:ital,wght@0,600;1,400&display=swap"
           rel="stylesheet" />
+
+          <title>DsInside</title>
       </Head>
       <body>
         <Main />
