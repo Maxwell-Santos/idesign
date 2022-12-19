@@ -3,6 +3,7 @@ import { useState } from 'react'
 import search from '../../../public/magnifying-glass.svg'
 import menu from '../../../public/menu.svg'
 import close from '../../../public/close.svg'
+import Head from 'next/head'
 
 export function Header() {
 
@@ -13,6 +14,11 @@ export function Header() {
     console.log(open)
   }
   return (
+    <>
+    <Head>
+      <title>DsInside</title>
+    </Head>
+    
     <header className="w-full flex items-center justify-between md:justify-center px-7 py-7">
       <div className="hidden">
         minha logo
@@ -81,5 +87,6 @@ export function Header() {
 
       </div>
     </header>
+  </>
   )
 }
